@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    inline-size: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar{
+    background-color: rgb(222, 241, 235);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carticon{
+    margin: 0px 25px;
+    font-size: 30px;
+    position: relative;
+}
+
+.title{
+    margin: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
+
+.shopping-items{
+    margin-top: 50px;
+    width: 400px;
+    height: 480px;
+    margin-left: 80px;
+    background-color: rgb(235, 241, 247);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.product-name{
+    padding: 25px;
+    text-align: center;
+}
+
+.product-img{
+    padding-left: 90px;
+    width: 300px;
+    height: 260px;
+}
+
+.price-tag{
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cont{
+    display: flex;
+    gap:50px;
+}
+
+.add-btn{
+    margin-top: 20px;
+}
+
+.item-count{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.quantity{
+    margin-top: 2px;
+}
+
+.cart-amount{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    font-size: 12px;
+    background-color: red;
+    color:white;
+    border-radius:2px;
+    padding: 3px;
+
+}
